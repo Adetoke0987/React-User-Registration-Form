@@ -1,6 +1,39 @@
 import React from 'react';
 
 const Home = () => {
+
+  const styles = {
+    container: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      padding: '50px',
+    },
+    textContainer: {
+      textAlign: 'center',
+      marginBottom: '20px',
+    },
+    heading: {
+      fontSize: '2.5rem',
+      color: 'blue',
+      marginBottom: '20px',
+    },
+    paragraph: {
+      fontSize: '1.2rem',
+      lineHeight: '1.5',
+      marginBottom: '10px',
+    },
+    imageContainer: {
+      marginTop: '20px',
+    },
+    image: {
+      maxWidth: '100%',
+      height: 'auto',
+      borderRadius: '18px',
+    },
+  };
+  
   return (
     <div style={styles.container}>
       <div style={styles.textContainer}>
@@ -24,36 +57,6 @@ const Home = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'column',
-    padding: '50px',
-  },
-  textContainer: {
-    textAlign: 'center',
-    marginBottom: '20px',
-  },
-  heading: {
-    fontSize: '2.5rem',
-    color: 'blue',
-    marginBottom: '20px',
-  },
-  paragraph: {
-    fontSize: '1.2rem',
-    lineHeight: '1.5',
-    marginBottom: '10px',
-  },
-  imageContainer: {
-    marginTop: '20px',
-  },
-  image: {
-    maxWidth: '100%',
-    height: 'auto',
-    borderRadius: '18px',
-  },
-};
+
 
 export default Home;
