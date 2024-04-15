@@ -21,9 +21,9 @@ const Register = () => {
         e.preventDefault();
         
         console.log(formData);
-        // Add logic to send formData to an API or perform actions
+       
         
-        setFormData(initialState); // Reset form data
+        setFormData(initialState); 
     };
 
     return (
